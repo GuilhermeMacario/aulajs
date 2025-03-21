@@ -1,15 +1,16 @@
-var lista = ["macario","Maria","Gui","Raspante"];
-    console.log (lista);// lista o array inteiro
 
-    console.log(lista[1]);//Imprime a posiçãp 1 do array
+const array = []
 
-    lista.push ("copadomundo");//Adiciona elemento na última posição
-    console.log (lista);
-    console.log (lista[4]);
+function Alunos (a,b){
+    this.nome = a;
+    this.nota = b;
 
-    lista.pop();//Tira o último elemento
-    console.log (lista);
+}
+const g = new Alunos ('Maria',20);
+const h = new Alunos ('Macario',31);
 
-    console.log(lista.lenght); // exibindo a quant de elementos do array
-
+array.push(g)
+console.log(array)
+array.push(h)
+console.log(array)
 
