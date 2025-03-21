@@ -1,14 +1,15 @@
-function Carro (a,b,c,d,e){
-    this.cor = a;
-    this.ano = b; 
-    this.modelo = c;
-    this.popular = d;
-    this.valor = e;
-    
+var lista = ["macario","Maria","Gui","Raspante"];
+    console.log (lista);// lista o array inteiro
 
-}
-const g = new Carro ('Vermelho',2001,'hb20',false,20000);
-const h = new Carro ('azul',3101,'gol',true,50000);
+    console.log(lista[1]);//Imprime a posiçãp 1 do array
 
-console.log (g);
-console.log (h);
+    lista.push ("copadomundo");//Adiciona elemento na última posição
+    console.log (lista);
+    console.log (lista[4]);
+
+    lista.pop();//Tira o último elemento
+    console.log (lista);
+
+    console.log(lista.lenght); // exibindo a quant de elementos do array
+
+
